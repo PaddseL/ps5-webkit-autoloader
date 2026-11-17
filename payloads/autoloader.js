@@ -86,10 +86,10 @@ function selectExploit(api) {
   }
   if (is905) {
     return {
-      file: "payloads/poops.js",
-      fallback: "poops.js",
+      file: "payloads/relapse.js",
+      fallback: "relapse.js",
       args: [],
-      reason: "FW 9.05 requires Poops",
+      reason: "FW 9.05 requires Relapse",
     };
   }
   if (isOnline) {
